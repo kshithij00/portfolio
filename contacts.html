@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Kshithij T S</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Kshithij T S</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contacts.html" class="nav-link active">Contact</a>
+        <a class="btn-outline" href="Kshithij_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container contact-grid">
+    <section class="card">
+      <h2>Get in touch</h2>
+      <p>Prefer email — I usually respond within a few days.</p>
+      <ul class="contact-info">
+        <li><strong>Email:</strong> kshithijcoorg123@gmail.com</li>
+        <li><strong>Phone:</strong> +91-6366198665</li>
+        <li><strong>Location:</strong> Puttur, Dakshina Kannada, India</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Message me</h3>
+      <form action="mailto:kshithijcoorg123@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <label>
+          Your name
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          Your email
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button class="btn-primary" type="submit">Send</button>
+          <a class="btn-ghost" href="Kshithij_Resume.pdf" target="_blank">Download Resume</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year4"></span> Kshithij T S</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
